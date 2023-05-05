@@ -1,0 +1,216 @@
+body {
+   
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+p {
+   color: hsl(201, 11%, 66%);
+}
+h1 {
+   color: hsl(210, 10%, 33%);
+}
+h3{
+    color: hsl(210, 10%, 33%);
+}
+.mode{
+    background-color: white;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.btn {
+    margin-top: 3%;
+   
+}
+.logo{
+    margin-top: 5%;
+}
+
+.ios{
+   background-color: hsl(171, 66%, 44%);
+   border: none;
+   border-radius: 20px;
+   height: 30px;
+   width: 150px;
+   color: aliceblue;
+   cursor: pointer;
+   margin-right: 2%;
+   margin-bottom: 5%;
+   box-shadow: 3px 3px 10px rgb(205, 242, 241);
+} 
+.ios:hover{
+    border-bottom: 4px solid  rgb(18, 115, 112); 
+}
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    color: aliceblue;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(186, 199, 239);
+}
+.mac:hover{
+    border-bottom: 4px solid  rgb(50, 74, 147);
+}
+
+.tex2 {
+    margin-top: 5%;
+}
+.compute{
+    display: flex;
+    margin-top: 60px;
+
+}
+.tex3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 18px;
+}
+.tex4 {
+    margin-top: 20%;
+}
+.tex5{
+    margin-top: 50px;
+}
+.computer{
+     width: 120%;
+     margin-left: -150px;
+}
+.abdoul {
+    display: flex;
+    margin-top: 6%;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+.computer1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 90%;
+    height: 90%;
+}
+.image {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 10%;
+    padding: 10px 20px;
+}
+.tex6 {
+    margin-top: 10%;
+}
+
+.div1 a{
+  color: hsl(201, 11%, 66%);
+}
+.div1 {
+    display: flex;
+    text-align: left;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li {
+    list-style: none;
+    width: calc(100%/3);
+   
+}
+ul li a {
+    text-decoration-line: none;
+}
+#logobat{
+    margin-top: 2rem;
+    width: 50%;
+}
+.div2 i{
+    margin-top: 2rem; 
+    margin-right:20px;
+}
+footer {
+    background-color:whitesmoke;
+   display: flex;
+   justify-content:space-around;
+  
+  
+}
+footer .div2 i:hover{
+    cursor: pointer;
+    color: rgb(40, 194, 189); 
+
+}
+footer .div1 a:hover{
+    cursor: pointer;
+    color: rgb(40, 194, 189); 
+
+}
+
+
+
+
+/* PHONE */
+@media screen and (max-width: 800px) {
+    .mode {
+        background-image: url(images/bg-header-mobile.png);
+        margin: 0 auto;
+        }
+    .btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .compute{
+        flex-direction: column;
+    }
+    .abdoul{
+        flex-direction: column;
+    }
+    .image{
+        flex-direction: column;
+    }
+    .bad{
+        flex-direction: column;
+    }
+    .computer{
+        width: 80%;
+        height: 80%;
+        margin-left: 0;
+    }
+    .computer1{
+        width: 90%;
+        height: 80%;
+    }
+    footer{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    #logobat{
+        width: 10%;
+       
+    }
+    .div1{
+        flex-direction: column;
+    text-align: center;>A       @&&@&&  
+    }
+    .div2{
+         margin-left: 30px;
+    }
+    .image img{
+         margin: 1rem;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+}
